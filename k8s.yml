@@ -13,7 +13,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: okteto/hello-world:golang
+      - image: registry.gitlab.com/kubernetes-data-science/kubernetes-data-science-containers/kubernetes-data-science:latest
         name: hello-world
 
 ---
