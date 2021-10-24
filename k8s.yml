@@ -13,7 +13,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: registry.gitlab.com/kubernetes-data-science/kubernetes-data-science-containers/kubernetes-data-science:latest
+      - image: registry.gitlab.com/kubernetes-data-science/kubernetes-data-science-spark/kubernetes-data-science-spark:latest
         name: hello-world
 
 ---
