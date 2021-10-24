@@ -1,7 +1,3 @@
-# Getting Started on Okteto with Go
+Deploys a data science tool suite to a local Kubernetes distributed compute cluster by helping to integrate a broad spectrum of high quality opensource software. Each tool is made available depending on use case, without requiring the end user to seek out, individually install, configure, update, and integrate disparate tooling into new or existing analysis workflows.
 
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/go-getting-started)
-
-This example shows how to use [Okteto](https://github.com/okteto/okteto) to develop a Go Sample App directly in Kubernetes. The Go Sample App is deployed using Kubernetes manifests.
-
-This is the application used for the [How to Develop and Debug Go Applications in Kubernetes](https://okteto.com/blog/how-to-develop-go-apps-in-kubernetes/) blog post.
+Each component dependency is pulled from each respective upstream project and/or docker repository, and no upstream code is ever modified. Different industries and user roles have varied needs; as such the platform is fully customizable in that analytic containers can be added, removed, or rolled back to earlier versions depending on host infrastructure and the applicable template.
